@@ -1,7 +1,6 @@
 // import {  useState } from 'react';
 import './App.css';
-// import Btn from './components/Btn';
-// import Focusinput from './components/Focusinput';
+import Focusinput from './components/Focusinput';
 import Renderinput from './components/Renderinput';
 
 function App() {
@@ -11,9 +10,10 @@ function App() {
   return (
     <div className="App">
      <h1>Welcome to UseRef</h1>
-  {/* <Focusinput/> */}
+  <Focusinput/>
+  <br/>
+  <br/>
   <Renderinput/>
-{/* <Btn/> */}
     </div>
   );
 }
