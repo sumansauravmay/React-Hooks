@@ -3,7 +3,7 @@ import React, { useRef, useState } from 'react';
 
 const Renderinput = () => {
     const [data,setData]=useState([]);
-    const inputRef=useRef(0);
+    const inputRef=useRef();
 
 
 

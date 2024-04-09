@@ -2,6 +2,7 @@
 import './App.css';
 import Focusinput from './components/Focusinput';
 import Renderinput from './components/Renderinput';
+import Renderupdateinput from './components/Renderupdateinput';
 
 function App() {
 
@@ -14,6 +15,9 @@ function App() {
   <br/>
   <br/>
   <Renderinput/>
+  <br/>
+  <br/>
+  <Renderupdateinput/>
     </div>
   );
 }
